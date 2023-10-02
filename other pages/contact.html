@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Me</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,300&display=swap"
+      rel="stylesheet"
+    />
+    <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap"
+    rel="stylesheet"
+  />
+    <style>
+
+      body {
+        height: 120vh;
+      }
+      .container h1 span {
+        color: #8c52ff;
+        margin-left: 8px;
+      }
+      .container h1 {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        font-size: 2.5rem;
+        font-family: "Nunito Sans", sans-serif;
+      }
+
+      .card-wrapper {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+      }
+      section .card-wrapper .card {
+        text-align: center;
+        margin-top: 70px;
+      }
+      h3 {
+        font-family: 'poppins' , sans-serif;
+        font-size: medium;
+        font-weight: 200;
+      }
+      h2 {
+        font-weight: 400;
+      }
+      .send-text-btn {
+        padding: 10px 18px;
+        font-size: medium;
+        border-radius: 0.3rem;
+        border: 2px solid #8c52ff;
+        background: transparent;
+        color: #8c52ff;
+        transition: background-color .2s ease-in , color .2s ease-in;
+      }
+     .send-text-btn:hover {
+        color: #ffffff ;
+        background-color: #8c52ff;
+       cursor: pointer;
+      }
+      .input-wrap {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        padding: 0 10rem;
+      }
+      .input-wrap-2 {
+        display: flex;
+        flex-direction: column;
+        padding: 0 10rem;
+      }
+      input {
+        padding: 0.5rem;
+        margin-top: 1rem;
+        margin-right: 0.5rem;
+      }
+      textarea {
+        margin-top: 1rem;
+        margin-right: 0.5rem;
+      }
+      .btn-wrapper {
+        text-align: center;
+        margin-top: 2rem;
+      }
+    </style>
+  </head>
+  <body>
+    <section class="contact">
+      <div class="container">
+        <h1>Contact <span>me</span></h1>
+
+        <div class="card-wrapper">
+          <div class="card">
+            <img src="./images/telephone.svg" height="40px" />
+            <h2>Calls</h2>
+            <h3>+91 9315675766</h3>
+          </div>
+
+          <div class="card">
+            <img src="./images/envelope.svg" height="40px"  />
+            <h2>Email at</h2>
+            <h3>keshavgupta9980@gmail.com</h3>
+          </div>
+
+          <div class="card">
+            <img src="./images/whatsapp.svg" height="40px"  />
+            <h2>Whatsapp</h2>
+            <h3>9315675766</h3>
+          </div>
+        </div>
+
+        <div class="input-wrap">
+          <input type="text" placeholder="Your Name *">
+          <input type="email" placeholder="Your Email *">
+        </div>
+
+        <div class="input-wrap-2">
+          <input type="text" placeholder="Your Subject...">
+          <textarea name="" id="" cols="30" rows="10" placeholder="Your Message..."></textarea>
+        </div>
+
+        <div class="btn-wrapper">
+          <button class="send-text-btn">Send Message</button>
+        </div>
+
+      </div>
+    </section>
+  </body>
+</html>
