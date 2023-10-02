@@ -276,6 +276,9 @@ section {
     .main {
         flex-direction: column;
     }
+    hr {
+        display:none;
+    }
     .mainleft img {
         margin-bottom: 3rem;
     }
