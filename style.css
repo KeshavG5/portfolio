@@ -229,6 +229,9 @@ section {
     #main-nav {
         display: none;
     }
+    hr {
+        display: none;
+    }
     .keshav {
         height: 130px;
     }
