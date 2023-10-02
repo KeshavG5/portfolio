@@ -305,11 +305,12 @@ section {
     }
     .work {
         height: 80vh;
+        padding: 32px 0;
+        text-align: center;
     }
     .work-link {
         font-size: 0.9rem;
     }
-
 }
 
 
