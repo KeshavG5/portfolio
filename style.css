@@ -1,0 +1,316 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body, html {
+    overflow-x: hidden;
+    }
+
+html {
+    scroll-behavior: smooth;
+}
+
+.port {
+    font-family: 'League Spartan', sans-serif;
+    font-size: xxx-large;
+    margin: 0;
+    padding-top: 12px;
+    margin-left: 1rem;
+    color : white;
+}
+
+.logo {
+    color: #8c52ff;
+}
+
+header {
+    height: 90vh;
+    background-color: #283035;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 65% 82%, 0 100%);
+}
+
+nav {
+    display: flex;
+    text-align: center;
+    justify-content: flex-start;
+}
+
+hr {
+    margin-top: 2px;
+    opacity: 8%;
+
+}
+
+.tab a {
+    text-decoration: none;
+    color: aliceblue;
+    margin-right: 3.5rem;
+    font-family: 'Poppins', sans-serif;
+    transition: all 0.3s ease;
+}
+
+.tab a:hover {
+    color: #7348c8;
+}
+
+
+.container {
+    margin: 0 auto;
+}
+@media (min-width:576px) {
+    .container {
+        max-width: 540px;
+    }
+}
+
+@media (min-width:768px) {
+    .container {
+        max-width: 720px;
+    }
+}
+
+@media (min-width:992px) {
+    .container {
+        max-width: 960px;
+    }
+}
+
+@media (min-width:1200px) {
+    .container {
+        max-width: 1650px;
+    }
+}
+
+.navleft {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: center; 
+}
+
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.keshav {
+    border-radius: 50%;
+    margin: 6rem 2rem;
+}
+
+.mainright h1 span {
+    color: #8c52ff;
+}
+
+.mainright h5 {
+   font-size: larger;
+   color: rgb(255, 255, 255);
+   font-family: 'Nunito Sans', sans-serif;
+   margin-bottom: 0.8rem;
+}
+
+.mainright h1 {
+    font-family: 'Nunito Sans', sans-serif;
+    line-height: 1;
+    color: white;
+    margin-bottom: 1.2rem;
+}
+
+.mainright p {
+    color: white;
+    line-height: 1.5;
+    font-weight: 400;
+    font-size: 1.1rem;
+    margin-bottom: 1.3rem;
+}
+
+.btn1 {
+    padding: 10px 18px;
+    font-size: medium;
+    border-radius: 0.3rem;
+    border: 2px solid #8c52ff;
+    background: transparent;
+    color: #8c52ff;
+    transition: background-color .2s ease-in , color .2s ease-in;
+}
+
+.btn1:hover {
+    color: #ffffff ;
+    background-color: #8c52ff;
+    cursor: pointer;
+}
+
+section {
+    padding: 6rem 15rem;
+}
+
+.container2 {
+    display: flex;
+    align-items: center;
+}
+
+.about {
+    margin-left: 60px;
+}
+
+.about h1 {
+    margin-bottom: 1rem;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.about h3 {
+    margin-bottom: 1.5rem;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.about p {
+    margin-bottom: 1.5rem;
+    font-weight: 200;
+    line-height: 1.7rem;
+    font-size: 1.1rem;
+}
+
+.about h1 span {
+    color: #8c52ff;
+}
+
+.social {
+    display: flex;
+}
+
+.social a {
+    margin-right: 10px;
+}
+
+.work {
+    background-color: #efefef;
+}
+
+.container-w h1 {
+    text-align: center;
+    font-family: 'Nunito Sans', sans-serif;
+
+}
+.container-w h1 span {
+    color: #8c52ff;
+}
+
+.container-w p {
+    text-align: center;
+    font-family: 'poppins', sans-serif;
+}
+
+.card-wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 1rem;
+    margin: 30px 0;
+}
+
+.card1 img {
+    height: 200px;
+    width: 330px;
+}
+
+.work-link {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1rem;
+    margin-top: 1rem;
+    font-family: 'poppins', sans-serif;
+}
+
+
+
+@media (max-width:1024px) {
+    #main-nav {
+        display: none;
+    }
+    .keshav {
+        height: 130px;
+    }
+    .mainright h1 {
+        font-size: 2rem;
+    }
+    .mainright {
+        padding-top: 10rem;
+    }
+    header {
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 80% 90%, 0 100%);
+    }
+    .aboutme-img img {
+        display: none;
+    }
+    #about {
+        padding: 0;
+    }
+    .about {
+        margin-left: 0;
+        padding: 10px 70px;
+    }
+    .social img {
+        margin-right: 15px;
+        height: 35px;
+    }
+    .work {
+        padding: 0 0;
+        padding-left: 2rem;
+        padding-top: 2rem;
+    }
+    .card-wrapper {
+        grid-template-columns: 1fr 1fr;
+    }
+    .card1 img {
+        height: 150px;
+        width: 250px;
+    }
+    .work {
+        height: 110vh;
+    }
+}
+
+@media (max-width:576px) {
+    .main {
+        flex-direction: column;
+    }
+    .mainleft img {
+        margin-bottom: 3rem;
+    }
+    .mainright {
+        padding-top: 0;
+        padding-left: 1rem;
+    }
+    .mainright h1 {
+        font-size: 1.6rem;
+    }
+    .mainright p {
+        font-size: 1rem;
+    }
+    header {
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 80% 95%, 0 100%);
+    } 
+    .about {
+        padding: 1rem 0;
+        padding-left: 1rem;
+    }
+    .card-wrapper {
+        grid-template-columns: 1fr 1fr;
+    }
+    .card1 img {
+        height: 90px;
+        width: 150px;
+    }
+    .work {
+        height: 80vh;
+    }
+    .work-link {
+        font-size: 0.9rem;
+    }
+
+}
+
+
+
